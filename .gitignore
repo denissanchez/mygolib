@@ -1,28 +1,21 @@
-# Compiled Object files, Static and Dynamic libs (Shared Objects)
-*.o
-*.a
-*.so
-
-# Executables
+# If you prefer the allow list template instead of the deny list, see community template:
+# https://github.com/github/gitignore/blob/main/community/Golang/Go.AllowList.gitignore
+#
+# Binaries for programs and plugins
 *.exe
-*.out
+*.exe~
+*.dll
+*.so
+*.dylib
 
-# Go binary
-/bin/
-
-# Go test and benchmarking tool
+# Test binary, built with `go test -c`
 *.test
 
-# Go coverage profile
-*.cover
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
 
-# Go build cache
-/.cache/
+# Dependency directories (remove the comment below to include it)
+# vendor/
 
-# Go module dependencies
-/go.mod
-/go.sum
-
-# IDE specific files
-.idea/
-.vscode/
+# Go workspace file
+go.work
